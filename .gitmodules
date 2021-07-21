@@ -1,0 +1,9 @@
+[submodule "SlippiStatsWebsite"]
+	path = SlippiStatsWebsite
+	url = https://github.com/Ckoenig1/SlippiStatsWebsite
+[submodule "SlippiStatsBackend"]
+	path = SlippiStatsBackend
+	url = https://github.com/Ckoenig1/SlippiStatsBackend
+[submodule "SlippiOverlay"]
+	path = SlippiOverlay
+	url = https://github.com/Ckoenig1/SlippiOverlay
