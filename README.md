@@ -6,9 +6,10 @@ This repository contains three submodules that link to the three components of t
 3. SlippiStatsWebsite - all of the front end code that handles the UI of the app using React/next.js
 
 This application is still a work in progress so things that look incomplete are just placeholders that will be fixed in time.
+
+## Demonstration
+
 https://user-images.githubusercontent.com/65579262/127787704-d6f3b2a9-97cc-4c55-8338-39ce544b2458.mp4
-
-
 
 
 
