@@ -2,6 +2,8 @@
 ## What is it?
 This application creates an overlay for the game Super Smash Bros. Melee that displays post game stats, aggregate stats, and provides some social networking function. This overlay works by creating a browser window that is completely transparent that tracks the location of the game window and adjusts itself to overlay on top of it. Visibility of the overlay can be toggled with a key bind and even while visible it does not fully obscure the game. The app calculates stats by reading game log files that are produced after every game and stored in a folder named Slippi. The stats that are calculated are stored locally and uploaded to a database which allows users to delete log files that have been processed without losing track of their progress.
 
+This repository contains three submodules that link to the three components of this application
+
 1. SlippiOverlay - the Electron application that handles file management and window tracking
 2. SlippiStatsBackend - the graphql/postgreSQL backend for my website
 3. SlippiStatsWebsite - all of the front end code that handles the UI of the app using React/Next.js
@@ -10,7 +12,7 @@ This application is still a work in progress so things that look incomplete are 
 
 ## Demonstration
 
-The first thing you will see when you run the app is the green navbar that appears at the top of the game window. From here you can login to your account or register a new account. In the video you will see me demonstrate the tracking ability of the overlay. Then i will login/logout and then attempt to register as a user that already exists. Once I am logged in as chris3 you will see the stats page that is currently uninitialized as we have played no games. The overlay can be toggled on and off by pressing 'e'
+The first thing you will see when you run the app is the green navbar that appears at the top of the game window. From here you can login to your account or register a new account. In the video you will see me demonstrate the tracking ability of the overlay by moving/resizing the game window. Then I will login/logout and attempt to register as a user that already exists. Once I am logged in as chris3 you will see the stats page that is currently uninitialized as we have played no games. The overlay can be toggled on and off by pressing 'e'
 
 https://user-images.githubusercontent.com/65579262/127787704-d6f3b2a9-97cc-4c55-8338-39ce544b2458.mp4
 
