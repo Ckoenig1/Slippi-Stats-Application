@@ -1,3 +1,5 @@
+
+
 # Slippi Stats Application
 ## What is it?
 This application creates an overlay for the game Super Smash Bros. Melee that displays post game stats, aggregate stats, and provides some social networking function. This overlay works by creating a browser window that is completely transparent that tracks the location of the game window and adjusts itself to overlay on top of it. Visibility of the overlay can be toggled with a key bind and even while visible it does not fully obscure the game. The app calculates stats by reading game log files that are produced after every game and stored in a folder named Slippi. The stats that are calculated are stored locally and uploaded to a database which allows users to delete log files that have been processed without losing track of their progress.
@@ -14,7 +16,10 @@ This application is still a work in progress so things that look incomplete are 
 
 The first thing you will see when you run the app is the green navbar that appears at the top of the game window. From here you can login to your account or register a new account. In the video you will see me demonstrate the tracking ability of the overlay by moving/resizing the game window. Then I will login/logout and attempt to register as a user that already exists. Once I am logged in as chris7 you will see the stats page that is currently uninitialized as we have played no games. The overlay can be toggled on and off by pressing 'e'.
 
-https://user-images.githubusercontent.com/65579262/127935668-0c45927f-af18-4f18-9b78-6ef1752271a9.mp4
+
+
+https://user-images.githubusercontent.com/65579262/127936590-5d97d40f-62f9-41db-a12f-45f12435a61a.mp4
+
 
 When a user creates an account for the first time, they also need to do some initial setup for the app to function. with a key bind (currently ctrl+o) the user opens a prompt that asks for the location of their game folder and which characters the user prefers to play as. Once the user submits their answers the application stores this info, but it can be changed at any time by simply hitting the key bind again. 
 
