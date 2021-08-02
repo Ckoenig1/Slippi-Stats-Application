@@ -1,6 +1,6 @@
 # Slippi Stats Application
-## about
-This repository contains three submodules that link to the three components of this application
+## What is it?
+This application creates an overlay for the game Super Smash Bros. Melee that displays post game stats, aggregate stats, and provides some social networking function. This overlay works by creating a browser window that is completely transparent that tracks the location of the game window and adjusts itself to overlay on top of it. Visibility of the overlay can be toggled with a key bind and even while visible it does not fully obscure the game. The app calculates stats by reading game log files that are produced after every game and stored in a folder named Slippi. The stats that are calculated are stored locally and uploaded to a database which allows users to delete log files that have been processed without losing track of their progress.
 
 1. SlippiOverlay - the Electron application that handles file management and window tracking
 2. SlippiStatsBackend - the graphql/postgreSQL backend for my website
