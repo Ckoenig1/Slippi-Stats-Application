@@ -1,4 +1,5 @@
 # Slippi Stats Application
+## about
 This repository contains three submodules that link to the three components of this application
 
 1. SlippiOverlay - the Electron application that handles file management and window tracking
