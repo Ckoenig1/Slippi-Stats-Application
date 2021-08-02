@@ -12,9 +12,9 @@ This application is still a work in progress so things that look incomplete are 
 
 ## Demonstration
 
-The first thing you will see when you run the app is the green navbar that appears at the top of the game window. From here you can login to your account or register a new account. In the video you will see me demonstrate the tracking ability of the overlay by moving/resizing the game window. Then I will login/logout and attempt to register as a user that already exists. Once I am logged in as chris3 you will see the stats page that is currently uninitialized as we have played no games. The overlay can be toggled on and off by pressing 'e'
+The first thing you will see when you run the app is the green navbar that appears at the top of the game window. From here you can login to your account or register a new account. In the video you will see me demonstrate the tracking ability of the overlay by moving/resizing the game window. Then I will login/logout and attempt to register as a user that already exists. Once I am logged in as chris7 you will see the stats page that is currently uninitialized as we have played no games. The overlay can be toggled on and off by pressing 'e'.
 
-https://user-images.githubusercontent.com/65579262/127787704-d6f3b2a9-97cc-4c55-8338-39ce544b2458.mp4
+https://user-images.githubusercontent.com/65579262/127935668-0c45927f-af18-4f18-9b78-6ef1752271a9.mp4
 
 When a user creates an account for the first time, they also need to do some initial setup for the app to function. with a key bind (currently ctrl+o) the user opens a prompt that asks for the location of their game folder and which characters the user prefers to play as. Once the user submits their answers the application stores this info, but it can be changed at any time by simply hitting the key bind again. 
 
