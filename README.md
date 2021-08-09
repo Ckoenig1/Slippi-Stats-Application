@@ -14,7 +14,7 @@ This application is still a work in progress so things that look incomplete are 
 
 ## Demonstration
 
-**Warning: Microsoft Edge has trouble playing these videos. Open this page in another browser if the videos are freezing**
+**WARNING: Microsoft Edge has trouble playing these videos. Open this page in another browser if the videos are freezing**
 
 The first thing you will see when you run the app is the green navbar that appears at the top of the game window. From here you can login to your account or register a new account. In the video you will see me demonstrate the tracking ability of the overlay by moving/resizing the game window. Then I will login/logout and attempt to register as a user that already exists. Once I am logged in as chris7 you will see the stats page that is currently uninitialized as we have played no games. The overlay can be toggled on and off by pressing 'e'.
 
